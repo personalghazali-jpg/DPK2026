@@ -220,7 +220,7 @@ int main() {
     node_krs daftar_krs = NULL;
 
     int menu_utama, pilihan_crud, sks;
-    char nama[50], nim[10], matkul[50], kode[10], kode_lama[10];
+    char nama[50], nim[11], matkul[50], kode[11], kode_lama[11];
 
     do {
         printf("\n==============================\n");
