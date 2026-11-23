@@ -8,20 +8,20 @@
 // STRUCT DATABASE
 struct Mahasiswa {
     char nama[50];
-    char nim[10];
+    char nim[11];
     struct Mahasiswa *next;
 };
 
 struct MataKuliah {
     char matkul[50];
-    char kode_matkul[10];
+    char kode_matkul[11];
     int sks;
     struct MataKuliah *next;
 };
 
 struct KRS {
-    char kode_matkul[10];
-    char nim[10];
+    char kode_matkul[11];
+    char nim[11];
     struct KRS *next;
 };
 
